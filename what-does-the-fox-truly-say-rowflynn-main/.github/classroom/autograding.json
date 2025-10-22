@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test with 2 input forest sound recordings",
+      "setup": "javac Fox.java",
+      "run": "java Fox",
+      "input": "2\r\ntoot woof wa ow ow ow pa blub blub pa toot pa blub pa pa ow pow toot\r\ntoot woof wa ow ow ow pa blub blub pa toot pa blub pa pa ow pow toot\r\ndog goes woof\r\nfish goes blub\r\nelephant goes toot\r\nseal goes ow\r\nwhat does the fox say?\r\n",
+      "output": "wa pa pa pa pa pa pow\r\nwa pa pa pa pa pa pow",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 40
+    },
+    {
+      "name": "Test with 4 input forest sound recordings",
+      "setup": "javac Fox.java",
+      "run": "java Fox",
+      "input": "4\r\ntoot woof wa ow ow ow pa blub blub pa toot pa blub pa pa ow pow toot toot woof wa ow ow ow pa blub blub pa toot pa blub foul pa pa ow pow toot toot woof wa ow ow ow pa blub blub pa toot pa blub pa pa ow pow toot\r\ntoot da wa ow ow blub blub wa por toot ow blub man pa ow pow toot toot woof wa ow ow ow pa blub blub pa toot pa blub pa pa ow pow lol toot toot woof wa ow ow ow pa blub blub pa toot pa blub pa pa ow pow toot\r\ntoot woof wa ow ow ow ov blub blub va toot blub kaka ti ow pow toot ma pow ti the ow ow wa blub ter toot woof ow wa st wa woof ide wa blub blub woof wa co wa wa toot me as wa woof wa ow ma ow toot ke yo wa toot wa ur toot woof wa wa ow wa ow woof wa wa woof woof woof wa wa ow wa ow wa ow woof toot ble pa toot woof vido ogop wa wa ow\r\ntoot hoh woof wa ba po ow ow ow ov me as meh wa woof wa ow ma ow toot ke yo wa toot wa ur toot woof wa wa ow wa ow woof wa wa woof woof woof wa wa ow wa ow wa ow woof toot pa pa lol tore fao nope ble pa toot woof vido ogop wa wa ow\r\ndog goes woof\r\nfish goes blub\r\nelephant goes toot\r\nseal goes ow\r\ncat goes wa\r\nstudent goes sleep\r\nteacher goes nuts\r\nrussian goes hack\r\ni go eat\r\nwhat does the fox say?\r\n",
+      "output": "pa pa pa pa pa pow pa pa pa foul pa pa pow pa pa pa pa pa pow\r\nda por man pa pow pa pa pa pa pa pow lol pa pa pa pa pa pow\r\nov va kaka ti pow ma pow ti the ter st ide co me as ma ke yo ur ble pa vido ogop\r\nhoh ba po ov me as meh ma ke yo ur pa pa lol tore fao nope ble pa vido ogop",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 60
+    }
+  ]
+}

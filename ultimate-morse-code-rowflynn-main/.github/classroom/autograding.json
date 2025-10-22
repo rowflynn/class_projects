@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Inputting dashDotDash",
+      "setup": "",
+      "run": "gradle test --tests MorseTests.dashDotDash --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    },
+    {
+      "name": "Inputting dotDotDot",
+      "setup": "",
+      "run": "gradle test --tests MorseTests.dotDotDot --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    },
+    {
+      "name": "Inputting dashDotDashDotDash",
+      "setup": "",
+      "run": "gradle test --tests MorseTests.dashDotDashDotDash --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 40
+    }
+  ]
+}

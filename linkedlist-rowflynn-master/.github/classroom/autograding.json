@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "LinkedList test for adding 2 elements",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testAdd --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test for removing the first element",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testRemoveFirst --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test for removing the last element",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testRemoveLast --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test of the size after 3 adds and 1 remove",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testSizeAfterAddRemove --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test for the size after adding 2 elements",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testSize --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test of the toString method after adding 7 elements",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testToStringAfterAdd --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test of the remove method in a nonexistent object",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testRemoveNonExistent --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test of removing an element by an index",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testRemoveIndex --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test of the remove method that is supposed to return an index of the removed element",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testRemoveObject --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test of the remove by index method that also returns the removed object",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testRemoveIndexAndObject --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test of the remove and add combo with a test for size at the end",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testSizeAndToStringAfterAddRemove --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LinkedList test of the add method that also takes in an index where the element must be inserted and testing the size as well",
+      "setup": "",
+      "run": "gradle test --tests LinkedListTests.testAddByIndex --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}

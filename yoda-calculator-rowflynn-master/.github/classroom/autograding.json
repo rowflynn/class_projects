@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Simple Nested Parenthesis With Single Digits",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.simpleNestedParenthesisWithSingleDigits --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Single Digit Plus Minus",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.singleDigitPlusMinus --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Multi Digit Plus Minus",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.multiDigitPlusMinus --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Multi Digit All Ops Whole Decimal",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.multiDigitAllOpsWholeDecimal --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Multi Digit All Ops Fractions",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.multiDigitAllOpsFractions --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Single Digit With Simple Parenthesis",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.singleDigitWithSimpleParenthesis --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Multi Digit With Simple Parenthesis",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.multiDigitWithSimpleParenthesis --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Simplest Plus Without Spaces",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.simplestPlusWithoutSpaces --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Simplest Multiply With Spaces",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.simplestMultiplyWithSpaces --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Many Parenthesis Multi Digit",
+      "setup": "",
+      "run": "gradle test --tests YodaCalcTests.manyParenthesisMultiDigit --info",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
