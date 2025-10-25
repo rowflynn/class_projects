@@ -1,0 +1,104 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{authblk}
+
+\title{$p^4 - 1 \mid 240$ if $p$ is prime and $p > 6$}
+\author{Rowan Flynn}
+\affil{Arcadia University}
+\date{December 2023}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    For my final project for Writing Mathematics at Arcadia University, taught by Carlos Ortiz, I had to choose a problem and write a proof of the problem as a mathematic article.
+    I will prove that $240 \mid p^4 - 1$ if $p$ is prime and $p > 6$ by direct proof.
+\end{abstract}
+
+\section{Introduction}
+
+For my project, I chose the problem:
+\begin{equation*}
+\begin{split}
+    \text{Suppose that the number \textit{p} is prime and greater than }6 \\ \text{Prove that }(p^4 - 1) \text{is divisible by }240.
+\end{split}
+\end{equation*} 
+
+This paper will solve this problem while adhering to the rules and format of a mathematic article.
+
+\section{The Main Result}
+To solve the problem, I will use the technique of proof by direct proof. First I will transform the statement into the form:
+\begin{equation}
+    \forall p \in \mathbb{R} (p \text{ is prime} \land p > 6 \implies 240 \mid p^4-1)
+\end{equation}
+We assume that p is an arbitrary real to be left with:
+\begin{equation}
+    p \text{ is prime} \land p > 6 \implies 240 \mid p^4-1
+\end{equation}
+
+I assume that \textit{p} is prime $\land$ $ p > 6$
+
+To obtain that $240 \mid p^4-1$
+\\
+\underline{\textbf{Proof:}}
+We start with the statement:
+\begin{equation*}
+    240 \mid p^4-1
+\end{equation*}
+The right hand of this statement can be factored to:
+\begin{equation*}
+    (p^2-1)(p^2+1)
+\end{equation*}
+Which can be factored again to give:
+\begin{equation*}
+    (p-1)(p+1)(p^2+1)
+\end{equation*}
+The goal will be to factor enough terms to show that 240 will be a factor of $p^4-1$
+We know that p is odd so $p+1$ must be even.
+Consider the cases 
+\begin{enumerate}
+    \item$p+1 \equiv 2 \pmod{4}$
+    \item$p+1 \equiv 0 \pmod{4}$
+\end{enumerate}
+
+If the first case is true, we know that $p-1 \equiv 0 \pmod{4}$.
+Conversely, if the second case is true, we know that $p+1 \equiv 0 \pmod{4}$.
+
+This means that regardless of the value of p, $p + 1 $ and $p-1$ will always have the factors 2 and 4.\cite{Star}
+
+Next, we will try $3 \mod p$. Since p is prime $p\mod 3 \text{ cannot equal } 0$ because it would mean that 5 is a factor of p, so we only need to consider 2 cases
+
+\begin{enumerate}
+    \item$p \equiv 1 \pmod{3}$
+    \item$p \equiv 2 \pmod{3}$
+\end{enumerate}
+
+If the first case is true, $p-1 \equiv 0 \pmod{3}$. If the second case is true then $p+1 \equiv 0 \pmod{3}$. This shows that it will always be possible to factor a 3 out of the original equation.
+
+
+Next, we will try $5 \mod p$. Since p is prime $5\mod p \text{ cannot equal } 0$ so we only need to consider 4 cases
+\begin{enumerate}
+    \item$p \equiv 1 \pmod{5}$
+    \item$p \equiv 2 \pmod{5}$
+    \item$p \equiv 3 \pmod{5}$
+    \item$p \equiv 4 \pmod{5}$
+\end{enumerate}
+
+In the first case, $5 \mod p-1$ will be 0 so 5 will be a factor.
+In the fourth case, $5 \mod p+1$ will be 0 so 5 will be a factor.
+
+In the second case, it will always be true that p will be of the form $5n + 2$. This number squared will be of the form $25n^2 + 4$. $25n^2 \equiv 0 \pmod{5}$ so $25n^2 +4 \equiv 4 \pmod{5}$. This means that $p^2 +1 \equiv 0 \pmod{5}$.
+
+In the third case, it will always be true that p will be of the form $5n + 3$. This number squared will be of the form $25n^2 + 9$. $25n^2 \equiv 0 \pmod{5}$ so $25n^2 +9 \equiv 4 \pmod{5}$. This means that $p^2 +1 \equiv 0 \pmod{5}$.\cite{stack}
+
+We now know that the number will be divisible by 2,3,4, and 5. Multiplying these together we have 120. The final 2 needed comes from $p^2+1$. We know that $p^2$ is odd so adding one will make it even and the last 2 can be factored from it.
+
+With this, we have that 240 can be factored from $p^4 - 1$ so the original statement must be true Q.E.D.
+
+\section{Conclusions}
+I successfully used cases to prove that 240 can be factored from any number of the form $p^4 - 1$ when p is a prime larger than 6.
+
+\bibliographystyle{plain}
+\bibliography{bib.bib}
+
+\end{document}
